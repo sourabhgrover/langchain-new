@@ -1,1 +1,4 @@
 langchain
+python-dotenv
+langchain_community
+langchain-groq
