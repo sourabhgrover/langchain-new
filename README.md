@@ -43,6 +43,33 @@ source .venv/Scripts/activate
 .venv\Scripts\activate.bat
 ```
 
+### Add dependencies
+
+Add a package:
+```bash
+uv add <package-name>
+```
+
+Add a development-only dependency:
+```bash
+uv add --dev <package-name>
+```
+
+Add multiple packages at once:
+```bash
+uv add <package1> <package2>
+```
+
+Add packages from a `requirements.txt` file:
+```bash
+uv add -r requirements.txt
+```
+
+Remove a package:
+```bash
+uv remove <package-name>
+```
+
 ### Run the project
 
 ```bash
